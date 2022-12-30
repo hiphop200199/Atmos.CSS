@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap");
+/*<link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap"
+      rel="stylesheet"
+    />
+    預先下載google fonts相關程式碼
+    */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*春天風格的樣式，前綴為spring-...，字型構想當初是以日文做考量，因此其他語言的呈現可能會不如預期。
+顏色選擇(16進位色號，不區分大小寫):
+1.#ffd0e2
+2.#5897f6
+3.#9b9713
+4.#D3BA88
+5.#5a570b
+*/
+.spring-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+.spring-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  height: 25vh;
+  background-image:linear-gradient(to top,#ffd0e2,#ffe8f1);
+ 
+}
+.spring-header::after{
+  position: absolute;
+  content: "";
+  top: 50%;
+  width: 100%;
+  height: 40vh;
+  background-image:linear-gradient(to bottom,#ffd0e2,#ffe8f1);
+  clip-path: polygon(0% 30%, 100% 0, 100% 32%, 0% 48%);
+  z-index: -1;
+}
+.spring-h1{
+  font-size: 3.2rem;
+  color: #5897f6;
+}
+.spring-h2{
+  font-size: 2.6rem;
+  color: #5897f6;
+}
+.spring-h3{
+  font-size: 2.2rem;
+  color: #5897f6;
+}
+.spring-h4{
+  font-size: 1.8rem;
+  color: #5897f6;
+}
+.spring-h5{
+  font-size: 1.4rem;
+  color: #5897f6;
+}
+.spring-h6{
+  font-size: 1.1rem;
+  color: #5897f6;
+}
+.spring-navbar{
+  padding: 1vmax;
+}
+.spring-ul {
+  list-style-type: none;
+}
+.spring-li{
+  float: right;
+}
+.spring-a-link {
+  display: inline-block;
+  padding: 0.5vmax;
+  margin-inline: 1vmax;
+  border-radius: 0.5vmax;
+  background-image:linear-gradient(25deg,#5897f6,#5897f661);
+  color: #ffe9f2;
+  font-size: 1.1rem;
+  box-shadow: 1px 1px 6px 1px  #5897f62a;
+  -webkit-box-reflect: below 0px linear-gradient(to top,rgba(0,0,0,0.3),rgba(0,0,0,0.01)) ;
+}
+.spring-a-link:link {
+  
+  text-decoration: none;
+ 
+}
+.spring-a-link:visited {
+  text-decoration: none;
+  
+}
+.spring-a-link:hover {
+  text-decoration: none;
+ 
+}
+.spring-a-link:active {
+  text-decoration: none;
+  
+}
+.spring-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 65vh;
+  background-image: linear-gradient(180deg,#ffd0e294,#ffe8f1,#9b97133c);
+}
+.spring-article{
+  display: flex;
+ 
+}
+.spring-table{
+  border-collapse: collapse;
+  text-align: center;
+  box-shadow: 1px 1.5px 6px 2px #5897f651;
+}
+
+.spring-tr-header{
+  background-color: #5897f62a;
+}
+.spring-tr-data{
+  background-color:  #9b971334;
+}
+.spring-tr-data:nth-child(2n){
+  background-color:  #d3ba88;
+
+}
+.spring-th{
+  color: #5897f6;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0.9vmax;
+}
+.spring-td{
+  color: #5a570b;
+  
+ 
+  padding: 0.2vmax ;
+}
+.spring-form{
+  border-radius: 1vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1vmax;
+  background-color: #9b971325;
+  box-shadow: 1px 1px 6px 1px  #5897f62a;
+}
+.spring-label{
+  color: #5897f6;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0.2vmax;
+}
+.spring-input-text{
+outline:1.5px solid #5897f6;
+border-radius: 0.2vmax;
+border: none;
+margin-inline: 0.5vmax;
+caret-color: #5897f6;
+background-color: #ffd0e253;
+color: #5897f6;
+padding: 0.2vmax;
+}
+.spring-input-password{
+  outline:1.5px solid #5897f6;
+  border-radius: 0.2vmax;
+  border: none;
+  margin-inline: 0.5vmax;
+  caret-color: #5897f6;
+  background-color: #ffd0e253;
+  color: #5897f6;
+  padding: 0.2vmax;
+}
+.spring-input-checkbox{
+  position: relative;
+  appearance: none;
+  width: 1vmax;
+  height: 1vmax;
+  border-radius: 0.2vmax;
+  outline:1.5px solid #5897f6;
+  background-color: #ffd0e253;
+  margin-inline: 0.5vmax;
+  padding: 0.2vmax;
+}
+.spring-input-checkbox:checked::after{
+  position: absolute;
+  content: "\2714";
+  color: #5897f6;
+  font-size: 1.1rem;
+  bottom: -8%;
+  left: 2%;
+}
+.spring-input-radio{
+  position: relative;
+  appearance: none;
+  width: 1vmax;
+  height: 1vmax;
+  border-radius: 50%;
+  outline:1.5px solid #5897f6;
+  background-color: #ffd0e253;
+  margin-inline: 0.5vmax;
+  padding: 0.2vmax;
+}
+.spring-input-radio:checked::after{
+  position: absolute;
+  content: "\25CF";
+  color: #5897f6;
+  font-size: 1.1rem;
+  left: 5.2%;
+  top: -39%;
+}
+.spring-input-submit{
+  outline:1.5px solid #5897f6;
+  border-radius: 0.2vmax;
+  border: none;
+  margin-inline: 0.5vmax;
+  caret-color: #5897f6;
+  background-color: #ffd0e253;
+  color: #5897f6;
+  padding: 0.2vmax;
+}
+.spring-aside{
+  margin-right: 1%;
+  display: flex;
+  padding: 2vmax;
+ box-shadow: 1px 1px 6px 1px  #5897f62a;
+  flex-direction: column;
+  width: 35ch;
+  background-color: #9b971309;
+  
+ 
+}
+.spring-p{
+  margin-top: 1vmax;
+  line-height: 1.8;
+  color: #5a570b;
+}
+.spring-footer {
+  width: 100%;
+  height: 10vh;
+  background-image: linear-gradient(14deg,#9b9713,#9b9713d2,#9b9713);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spring-button{
+  margin-inline: 1vmax;
+  background-image:linear-gradient(15deg,#5897f6,#5897f661);
+  border-radius: 0.4vmax;
+  color: #ffd0e2;
+  border: none;
+  padding: 0.2vmax;
+  cursor: pointer;
+  font-size: 1.1rem;
+  box-shadow: 1px 1px 6px 1px  #5897f62a;
+  -webkit-box-reflect: below 0px linear-gradient(to top,rgba(0,0,0,0.3),rgba(0,0,0,0.01)) ;
+}
