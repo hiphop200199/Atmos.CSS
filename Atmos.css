@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
 /*<link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -7,6 +8,7 @@
       rel="stylesheet"
     />
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
     預先下載google fonts相關程式碼
     */
 * {
@@ -513,4 +515,236 @@ padding: 0.5vmax;
   border: none;
   cursor: pointer;
   font-size: 1.2rem;
+}
+
+/*溫暖焦糖感風格的樣式，前綴為caramel-...。
+顏色選擇(16進位色號，不區分大小寫):
+1.#C48542
+2.#411F0B
+3.#E3D0B0
+4.#D6D5E2
+*/
+
+.caramel-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Caveat', cursive;
+}
+
+.caramel-h1{
+  font-size: 4vw;
+  letter-spacing: 0.5vw;
+  color: #411F0B;
+}
+.caramel-h2{
+  font-size: 2.8vw;
+  color: #411F0B;
+}
+.caramel-h3{
+  font-size: 2.5vw;
+  color: #411F0B;
+}
+.caramel-h4{
+  font-size: 2vw;
+  color: #411F0B;
+}
+.caramel-h5{
+  font-size: 1.6vw;
+  color: #411F0B;
+}
+.caramel-h6{
+  font-size: 1.2vw;
+  color: #411F0B;
+}
+.caramel-navbar{
+  padding: 1vmax;
+}
+.caramel-ul {
+  list-style-type: none;
+}
+.caramel-li{
+  float: right;
+}
+.caramel-a-link {
+  display: inline-block;
+  padding: 0.5vmax;
+  margin-inline: 1.5vmax;
+  border-radius: 0.5vmax;
+  background-image:linear-gradient(25deg,#411F0B,#C48542);
+  color: #D6D5E2;
+  font-size: 1.1rem;
+  box-shadow: 1px 1px 6px 1px  #d6d5e26b;
+  -webkit-box-reflect: below 0px linear-gradient(to top,rgba(0,0,0,0.6),rgba(0,0,0,0.01)) ;
+}
+.caramel-a-link:link,.caramel-a-link:visited, .caramel-a-link:hover,.caramel-a-link:active{
+  text-decoration: none;
+}
+ 
+ 
+.caramel-all {
+  display: flex;
+  padding: 2vmax;
+ justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: radial-gradient(#D6D5E2,#C48542,#411F0B);
+}
+.caramel-header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4vmax;
+   width: 100%;
+}
+.caramel-article{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+ 
+}
+.caramel-table{
+  border-collapse: collapse;
+  text-align: center;
+ margin-inline: 1vw;
+ 
+}
+
+.caramel-tr-header{
+  background-color: #411F0B;
+ 
+ 
+}
+.caramel-tr-data{
+  background-color:  #E3D0B0;
+ 
+}
+.caramel-tr-data:nth-child(2n){
+  background-color:  #C48542;
+ 
+}
+.caramel-th{
+  color: #E3D0B0;
+  font-size: 1.1vw;
+  font-weight: 700;
+  padding: 0.9vmax;
+}
+.caramel-td{
+  color: #411F0B;
+  font-size: 1vw;
+  padding: 0.2vmax ;
+}
+.caramel-form{
+  border-radius: 2vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1vmax;
+  background-color: #C48542;
+ 
+}
+.caramel-label{
+  color: #411F0B;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0.2vmax;
+}
+.caramel-input-text{
+outline:1.5px solid #411F0B;
+border-radius: 0.5vmax;
+border: none;
+margin-inline: 0.5vmax;
+caret-color: #411F0B;
+background-color: #E3D0B0;
+color: #411F0B;
+padding: 0.2vmax;
+}
+.caramel-input-password{
+  outline:1.5px solid #411F0B;
+  border-radius: 0.5vmax;
+  border: none;
+  margin-inline: 0.5vmax;
+  caret-color: #411F0B;
+  background-color: #E3D0B0;
+  color: #411F0B;
+  padding: 0.2vmax;
+}
+.caramel-input-checkbox{
+  position: relative;
+  width: 1vmax;
+  height: 1vmax;
+  border-radius: 0.5vmax;
+  background-color: #E3D0B0;
+  margin-inline: 0.5vmax;
+  caret-color: #411F0B;
+  padding: 0.2vmax;
+}
+.caramel-input-radio{
+  position: relative;
+  width: 1vmax;
+  height: 1vmax;
+  border-radius: 50%;
+  background-color: #E3D0B0;
+  margin-inline: 0.5vmax;
+  padding: 0.2vmax;
+  caret-color: #411F0B;
+}
+
+.caramel-input-submit{
+  outline:1.5px solid #411F0B;
+  border-radius: 0.5vmax;
+  border: none;
+  cursor: pointer;
+  margin-inline: 0.5vmax;
+  caret-color: #411F0B;
+  background-color: #E3D0B0;
+  color: #411F0B;
+  padding: 0.2vmax;
+}
+.caramel-aside{
+  border-radius: 2vmax;
+  margin-inline: 1vw;
+  display: flex;
+  padding: 2vmax;
+  flex-direction: column;
+  width: 35ch;
+  background-color: #C48542;
+  
+ 
+}
+.caramel-p{
+  margin-top: 1vmax;
+  padding: 1vmax;
+  line-height: 1.9;
+  color: #D6D5E2;
+  font-size: 1vw;
+}
+.caramel-footer{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  padding: 5vmax;
+   width: 100%;
+  
+}
+.caramel-button{
+  margin-inline: 1vmax;
+  
+  background-image:linear-gradient(25deg,#411F0B,#C48542);
+  border-radius: 0.5vmax;
+  border: none;
+  padding: 0.5vmax;
+  cursor: pointer;
+  font-size: 1.1vw;
+  font-family: 'Caveat', cursive;
+  color: #D6D5E2;
+  box-shadow: 1px 1px 6px 1px  #d6d5e26b;
+  -webkit-box-reflect: below 0px linear-gradient(to top,rgba(0,0,0,0.6),rgba(0,0,0,0.01)) ;
 }
