@@ -192,7 +192,7 @@ padding: 0.2vmax;
 }
 .spring-input-checkbox{
   position: relative;
-  appearance: none;
+  accent-color: #FFD0E2;
   width: 1vmax;
   height: 1vmax;
   border-radius: 0.2vmax;
@@ -201,17 +201,9 @@ padding: 0.2vmax;
   margin-inline: 0.5vmax;
   padding: 0.2vmax;
 }
-.spring-input-checkbox:checked::after{
-  position: absolute;
-  content: "\2714";
-  color: #5897f6;
-  font-size: 1.1rem;
-  bottom: -8%;
-  left: 2%;
-}
 .spring-input-radio{
   position: relative;
-  appearance: none;
+ accent-color: #FFD0E2;
   width: 1vmax;
   height: 1vmax;
   border-radius: 50%;
@@ -219,14 +211,6 @@ padding: 0.2vmax;
   background-color: #ffd0e253;
   margin-inline: 0.5vmax;
   padding: 0.2vmax;
-}
-.spring-input-radio:checked::after{
-  position: absolute;
-  content: "\25CF";
-  color: #5897f6;
-  font-size: 1.1rem;
-  left: 5.2%;
-  top: -39%;
 }
 .spring-input-submit{
   outline:1.5px solid #5897f6;
@@ -436,7 +420,7 @@ padding: 0.5vmax;
 }
 .tech-input-checkbox{
   position: relative;
-  
+  accent-color: #00E4FF;
   width: 1vmax;
   height: 1vmax;
   
@@ -449,7 +433,7 @@ padding: 0.5vmax;
 
 .tech-input-radio{
   position: relative;
- 
+ accent-color: #00E4FF;
   width: 1vmax;
   height: 1vmax;
   
@@ -677,6 +661,7 @@ padding: 0.2vmax;
 }
 .caramel-input-checkbox{
   position: relative;
+  accent-color: #411F0B;
   width: 1vmax;
   height: 1vmax;
   border-radius: 0.5vmax;
@@ -687,6 +672,7 @@ padding: 0.2vmax;
 }
 .caramel-input-radio{
   position: relative;
+  accent-color: #411F0B;
   width: 1vmax;
   height: 1vmax;
   border-radius: 50%;
