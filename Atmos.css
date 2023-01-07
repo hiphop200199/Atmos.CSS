@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&family=Share+Tech+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
 /*<link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -9,6 +11,8 @@
     />
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
     預先下載google fonts相關程式碼
     */
 * {
@@ -733,4 +737,463 @@ padding: 0.2vmax;
   color: #D6D5E2;
   box-shadow: 1px 1px 6px 1px  #d6d5e26b;
   -webkit-box-reflect: below 0px linear-gradient(to top,rgba(0,0,0,0.6),rgba(0,0,0,0.01)) ;
+}
+
+
+
+
+/*簡約專業的風格，前綴為clean-...。
+顏色選擇(16進位色號，不區分大小寫):
+1.#363534
+2.#FFFFFF
+3.#DCE3F6
+4.#8993B2
+*/
+.clean-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Libre Franklin', sans-serif;
+}
+.clean-header {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 100%;
+  height: 20vh;
+}
+.clean-h1{
+  font-size: 5vw;
+  color: #363534;
+}
+.clean-h2{
+  font-size: 3vw;
+  color: #363534;
+}
+.clean-h3{
+  font-size: 2.5vw;
+  color: #363534;
+}
+.clean-h4{
+  font-size: 2vw;
+  color: #363534;
+}
+.clean-h5{
+  font-size: 1.5vw;
+  color: #363534;
+}
+.clean-h6{
+  font-size: 1.2vw;
+  color: #363534;
+}
+.clean-navbar{
+  padding: 1.5vmax;
+}
+.clean-ul {
+  list-style-type: none;
+}
+.clean-li{
+  float: right;
+}
+.clean-a-link {
+  display: inline-block;
+  padding: 0.5vmax;
+  margin-inline: 1vmax;  
+  font-size: 1.1vw;
+  text-decoration: underline;
+  color: #363534;
+}
+.clean-a-link:link, .clean-a-link:visited,.clean-a-link:hover,.clean-a-link:active {
+  text-decoration: underline;
+ 
+ 
+}
+.clean-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75vh;
+  background-color:#ffffff;
+}
+.clean-article{
+  display: flex;
+ 
+}
+.clean-table{
+  border-collapse: collapse;
+  text-align: center;
+  margin-inline:1vw;
+  border: 1px solid #363534;
+}
+
+.clean-tr-header{
+  background-color: #363534;
+}
+.clean-tr-data{
+  background-color:  #ffffff;
+}
+.clean-tr-data:nth-child(2n){
+  background-color:  #8993B2;
+
+}
+.clean-th{
+  color: #ffffff;
+  font-size: 1.3vw;
+  padding: 1vmax;
+  
+}
+.clean-td{
+  color: #363534;
+  font-size: 1vw;
+  padding: 0.5vmax;
+}
+.clean-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1vmax;
+  border: 1px solid #363534;
+  border-radius: 2px;
+  background-color: #8993B2;
+  margin-inline:1vw ;
+}
+.clean-label{
+  color: #363534;
+  margin-inline: 1vmax;
+  font-size: 1.2vw;
+  font-weight: 700;
+   padding: 0.5vmax;
+}
+.clean-input-text{
+outline:1.5px solid #363534;
+border: none;
+border-radius: 2px;
+margin: 0.5vmax;
+caret-color: #363534;
+background-color: #ffffff;
+color: #363534;
+padding: 0.5vmax;
+}
+.clean-input-password{
+  outline:1.5px solid #363534;
+  border: none;
+  border-radius: 2px;
+  margin: 0.5vmax;
+  caret-color: #363534;
+  background-color: #ffffff;
+  color: #363534;
+  padding: 0.5vmax;
+}
+.clean-input-checkbox{
+  position: relative;
+  accent-color: #363534;
+  width: 1vmax;
+  height: 1vmax;
+  
+  
+  background-color: #ffffff;
+  margin: 1vmax;
+  padding: 0.5vmax;
+}
+
+
+.clean-input-radio{
+  position: relative;
+ accent-color: #363534;
+  width: 1vmax;
+  height: 1vmax;
+  
+  
+  background-color: #ffffff;
+  margin: 1vmax;
+  padding: 0.5vmax;
+}
+
+.clean-input-submit{
+  outline:1.5px solid #363534;
+  border: none;
+  margin: 0.5vmax;
+  font-size: 1vw;
+  border-radius: 2px;
+  caret-color: #363534;
+  background-color: #ffffff;
+  color: #363534;
+  padding: 0.5vmax;
+}
+.clean-aside{
+  margin-inline:1vw;
+  display: flex;
+ color: #ffffff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+  width: 45ch;
+  border: 1px solid #363534;
+  background-color: #8993B2;
+  padding: 1vmax;
+  border-radius: 2px;
+}
+.clean-p{
+  margin: 1vmax;
+  line-height: 1.6;
+  color: #ffffff;
+  font-size: 1vw;
+}
+.clean-footer {
+  position: relative;
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clean-button{
+  margin-inline: 1vmax;
+  background-color: #363534;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 1.2vw;
+  padding: 0.5vmax;
+}
+
+
+
+
+/*火山熔岩樣式，前綴為lava-...。
+顏色選擇(16進位色號，不區分大小寫):
+1.#C48542
+2.#411F0B
+3.#E3D0B0
+4.#D6D5E2
+*/
+
+.lava-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Yeon Sung', cursive;
+}
+
+.lava-h1{
+  font-size: 5vw;
+  letter-spacing: 0.5vw;
+  color: #FFDC7F;
+}
+.lava-h2{
+  font-size: 2.8vw;
+  color: #FFDC7F;
+}
+.lava-h3{
+  font-size: 2.5vw;
+  color: #FFDC7F;
+}
+.lava-h4{
+  font-size: 2vw;
+  color: #FFDC7F;
+}
+.lava-h5{
+  font-size: 1.6vw;
+  color: #FFDC7F;
+}
+.lava-h6{
+  font-size: 1.2vw;
+  color: #FFDC7F;
+}
+.lava-navbar{
+  padding: 1.5vmax;
+}
+.lava-ul {
+  list-style-type: none;
+}
+.lava-li{
+  float: right;
+}
+.lava-a-link {
+  display: inline-block;
+  padding: 0.5vmax;
+  margin-inline: 1.5vmax;
+  border-radius: 54% 46% 77% 23% / 52% 52% 48% 48% ;
+  background-image: linear-gradient(-55deg,#0D1218,#C23B20,#30435B);
+  color: #FFDC7F;
+  font-size: 1.1vw;
+  box-shadow: 1px 1px 6px 1px  #d6d5e26b;
+  -webkit-box-reflect: below 0px linear-gradient(to top,rgba(0,0,0,0.7),rgba(0,0,0,0.01)) ;
+}
+.lava-a-link:link,.lava-a-link:visited, .lava-a-link:hover,.lava-a-link:active{
+  text-decoration: none;
+}
+ 
+ 
+.lava-all {
+  display: flex;
+  padding: 1vmax;
+ justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(-95deg,#0D1218,#C23B20,#30435B);
+}
+.lava-header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1vmax;
+   width: 100%;
+}
+.lava-article{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+ 
+}
+.lava-table{
+  border-collapse: collapse;
+  text-align: center;
+ margin-inline: 1vw;
+ 
+}
+
+.lava-tr-header{
+  background-color: #0D1218;
+ 
+ 
+}
+.lava-tr-data{
+  background-color: #30435B ;
+ 
+}
+.lava-tr-data:nth-child(2n){
+  background-color:  #C23B20;
+ 
+}
+.lava-th{
+  color: #FFDC7F;
+  font-size: 1.3vw;
+  font-weight: 700;
+  padding: 0.9vmax;
+}
+.lava-td{
+  color: #FFDC7F;
+  font-size: 1vw;
+  padding: 0.2vmax ;
+}
+.lava-form{
+  border-radius: 47% 53% 47% 53% / 44% 30% 70% 56% ;
+  display: flex;
+  flex-direction: column;
+ justify-content: space-between;
+  padding: 1vmax;
+  background-color: #0D1218;
+ 
+}
+.lava-label{
+  color: #FFDC7F;
+  font-size: 1.1vw;
+  font-weight: 700;
+  padding: 0.2vmax;
+}
+.lava-input-text{
+outline:1.5px solid #FFDC7F;
+border-radius: 73% 27% 64% 36% / 47% 51% 49% 53% ;
+border: none;
+margin-inline: 0.5vmax;
+caret-color: #FFDC7F;
+background-color: #C23B20;
+color: #FFDC7F;
+padding: 0.2vmax;
+}
+.lava-input-password{
+  outline:1.5px solid #FFDC7F;
+  border-radius: 73% 27% 64% 36% / 47% 51% 49% 53% ;
+  border: none;
+  margin-inline: 0.5vmax;
+  caret-color: #FFDC7F;
+  background-color: #C23B20;
+  color: #FFDC7F;
+  padding: 0.2vmax;
+}
+.lava-input-checkbox{
+  position: relative;
+  accent-color: #ffdc7f;
+  width: 1vmax;
+  height: 1vmax;
+  background-color: #C23B20;
+  margin-inline: 0.5vmax;
+  caret-color: #ffdc7f;
+  padding: 0.2vmax;
+}
+.lava-input-radio{
+  position: relative;
+  accent-color: #ffdc7f;
+  width: 1vmax;
+  height: 1vmax;
+  background-color: #C23B20;
+  margin-inline: 0.5vmax;
+  padding: 0.2vmax;
+  caret-color: #ffdc7f;
+}
+
+.lava-input-submit{
+  outline:1.5px solid #ffdc7f;
+  border-radius: 73% 27% 64% 36% / 47% 51% 49% 53% ;
+  border: none;
+  cursor: pointer;
+  margin-inline: 0.5vmax;
+  caret-color: #ffdc7f;
+  background-color: #C23B20;
+  color: #ffdc7f;
+  padding: 0.2vmax;
+}
+.lava-aside{
+  border-radius: 65% 35% 65% 35% / 37% 43% 57% 63% ;
+  margin-inline: 1vw;
+  display: flex;
+  padding: 2vmax;
+  flex-direction: column;
+  width: 38ch;
+  background-color: #30435B;
+  
+ 
+}
+.lava-p{
+  margin-top: 1vmax;
+  padding: 1vmax;
+  line-height: 1.9;
+  color: #FFDC7F;
+  font-size: 1vw;
+}
+.lava-footer{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  padding: 5vmax;
+   width: 100%;
+  
+}
+.lava-button{
+  margin-inline: 1vmax;
+  
+  background-image: linear-gradient(-55deg,#0D1218,#C23B20,#30435B);
+  border-radius: 63% 37% 70% 30% / 38% 57% 43% 62% ;
+  border: none;
+  padding: 0.5vmax;
+  cursor: pointer;
+  font-size: 1.1vw;
+ font-family: inherit;
+  color: #FFDC7F;
+  box-shadow: 1px 1px 6px 1px  #d6d5e26b;
+  -webkit-box-reflect: below 0px linear-gradient(to top,rgba(0,0,0,0.7),rgba(0,0,0,0.01)) ;
 }
