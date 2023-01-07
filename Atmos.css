@@ -299,27 +299,27 @@ padding: 0.2vmax;
   z-index: -1;
 }
 .tech-h1{
-  font-size: 5rem;
+  font-size: 5vw;
   color: #00E4FF;
 }
 .tech-h2{
-  font-size: 3rem;
+  font-size: 3vw;
   color: #00e4ff;
 }
 .tech-h3{
-  font-size: 2.5rem;
+  font-size: 2.5vw;
   color: #00e4ff;
 }
 .tech-h4{
-  font-size: 2rem;
+  font-size: 2vw;
   color: #00e4ff;
 }
 .tech-h5{
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   color: #00e4ff;
 }
 .tech-h6{
-  font-size: 1.2rem;
+  font-size: 1.2vw;
   color: #00e4ff;
 }
 .tech-navbar{
