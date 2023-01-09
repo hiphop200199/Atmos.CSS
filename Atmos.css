@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 /*<link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
     預先下載google fonts相關程式碼
     */
 * {
@@ -1195,5 +1197,247 @@ padding: 0.2vmax;
  font-family: inherit;
   color: #FFDC7F;
   box-shadow: 1px 1px 6px 1px  #d6d5e26b;
+  -webkit-box-reflect: below 0px linear-gradient(to top,rgba(0,0,0,0.7),rgba(0,0,0,0.01)) ;
+}
+
+
+
+
+
+/*海洋之心風格，前綴為sea-...。
+顏色選擇(16進位色號，不區分大小寫):
+1.#0B8CEA
+2.#FAF7E2
+3.#3A2134
+4.#0E2063
+*/
+
+
+
+
+
+.sea-container {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'East Sea Dokdo', cursive;
+}
+
+.sea-h1{
+  font-size: 5vw;
+  letter-spacing: 0.5vw;
+  font-style: italic;
+  color: #FAF7E2;
+}
+.sea-h2{
+  font-size: 2.8vw;
+  font-style: italic;
+
+  color: #FAF7E2;
+}
+.sea-h3{
+  font-size: 2.5vw;
+  font-style: italic;
+
+  color: #FAF7E2;
+}
+.sea-h4{
+  font-size: 2vw;
+  font-style: italic;
+
+  color: #FAF7E2;
+}
+.sea-h5{
+  font-size: 1.6vw;
+  font-style: italic;
+
+  color: #FAF7E2;
+}
+.sea-h6{
+  font-size: 1.2vw;
+  font-style: italic;
+
+  color: #FAF7E2;
+}
+.sea-navbar{
+  padding: 0.5vmax;
+}
+.sea-ul {
+  list-style-type: none;
+}
+.sea-li{
+  float: right;
+}
+.sea-a-link {
+  display: inline-block;
+  padding: 0.8vmax;
+  margin-inline: 1.5vmax;
+  border-radius: 42% 58% 58% 42% / 51% 50% 50% 49%   ;
+  background-image: linear-gradient(-55deg,#0B8CEA,transparent);
+  color: #FAF7E2;
+  font-size: 1.1vw;
+  box-shadow: 1px 1px 6px 1px  #0E2063;
+  -webkit-box-reflect: below 1px linear-gradient(to top,rgba(0,0,0,0.7),rgba(0,0,0,0.01)) ;
+}
+.sea-a-link:link,.sea-a-link:visited, .sea-a-link:hover,.sea-a-link:active{
+  text-decoration: none;
+}
+ 
+ 
+.sea-all {
+ position: relative;
+  padding: 0.5vmax;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(15deg,#3A2134,#0E2063,#0B8CEA);
+}
+.sea-header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1vmax;
+   width: 100%;
+}
+.sea-article{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+ 
+}
+.sea-table{
+  border-collapse: collapse;
+  text-align: center;
+ margin-inline: 1vw;
+ box-shadow: 1px 1px 6px 2px  #0E2063;
+}
+
+.sea-tr-header{
+  background-color: #3A2134;
+ 
+ 
+}
+.sea-tr-data{
+  background-color: #0B8CEA ;
+ 
+}
+.sea-tr-data:nth-child(2n){
+  background-color: #0E2063 ;
+ 
+}
+.sea-th{
+  color: #FAF7E2;
+  font-size: 1.3vw;
+  font-weight: 700;
+  padding: 0.9vmax;
+}
+.sea-td{
+  color: #FAF7E2;
+  font-size: 1vw;
+  padding: 0.2vmax ;
+}
+.sea-form{
+  border-radius: 52% 48% 48% 52% / 54% 50% 50% 46%   ;
+  display: flex;
+  flex-direction: column;
+ justify-content: space-between;
+  padding: 1vmax;
+  background-image:radial-gradient(#3A2134,#0E2063);
+  box-shadow: 1px 1px 6px 2px  #0E2063;
+}
+.sea-label{
+  color: #FAF7E2;
+  font-size: 1.1vw;
+  font-weight: 700;
+  padding: 0.2vmax;
+}
+.sea-input-text{
+border-radius: 73% 27% 64% 36% / 47% 51% 49% 53% ;
+border: none;
+margin-inline: 0.5vmax;
+caret-color: #FAF7E2;
+background-image: linear-gradient(55deg,#0B8CEA,#088ceaa7);
+color: #FAF7E2;
+padding: 0.2vmax;
+}
+.sea-input-password{
+  border-radius: 73% 27% 64% 36% / 47% 51% 49% 53% ;
+  border: none;
+  margin-inline: 0.5vmax;
+  caret-color: #FAF7E2;
+  background-image: linear-gradient(55deg,#0B8CEA,#088ceaa7);
+  color: #FAF7E2;
+  padding: 0.2vmax;
+}
+.sea-input-checkbox{
+  position: relative;
+  accent-color: #FAF7E2;
+  width: 1vmax;
+  height: 1vmax;
+  background-color: #0B8CEA;
+  margin-inline: 0.5vmax;
+  caret-color: #FAF7E2;
+  padding: 0.2vmax;
+}
+.sea-input-radio{
+  position: relative;
+  accent-color: #FAF7E2;
+  width: 1vmax;
+  height: 1vmax;
+  background-color: #0B8CEA;
+  margin-inline: 0.5vmax;
+  padding: 0.2vmax;
+  caret-color: #FAF7E2;
+}
+
+.sea-input-submit{
+  border-radius: 40% 60% 48% 52% / 54% 50% 50% 46% ;
+  border: none;
+  cursor: pointer;
+  margin-inline: 0.5vmax;
+  caret-color: #FAF7E2;
+  background-image: linear-gradient(55deg,#0B8CEA,#088ceaa7);
+  color: #FAF7E2;
+  padding: 0.5vmax;
+}
+.sea-aside{
+  border-radius: 59% 41% 55% 45% / 54% 50% 50% 46%  ;
+  margin-inline: 1vw;
+  display: flex;
+  padding: 1vmax;
+  flex-direction: column;
+  width: 45ch;
+  background-image: linear-gradient(95DEG,#0E2063,#3A2134);
+  box-shadow: 1px 1px 6px 2px  #0E2063;
+ 
+}
+.sea-p{
+  margin-top: 1vmax;
+  padding: 1vmax;
+ line-height: 1.5;
+  color: #FAF7E2;
+  font-size: 1vw;
+}
+.sea-footer{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  padding: 1vmax;
+   width: 100%;
+  
+}
+.sea-button{
+  margin-inline: 1vmax;
+  
+  background-image: linear-gradient(55deg,#0E2063,#0B8CEA);
+  border-radius: 42% 58% 58% 42% / 51% 50% 50% 49%  ;
+  border: none;
+  padding: 1vmax;
+  cursor: pointer;
+  font-size: 1.1vw;
+ font-family: inherit;
+  color: #FAF7E2;
+  box-shadow: 1px 1px 6px 2px  #0E2063;
   -webkit-box-reflect: below 0px linear-gradient(to top,rgba(0,0,0,0.7),rgba(0,0,0,0.01)) ;
 }
