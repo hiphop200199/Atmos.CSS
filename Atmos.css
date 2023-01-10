@@ -198,22 +198,14 @@ padding: 0.2vmax;
 }
 .spring-input-checkbox{
   position: relative;
-  accent-color: #FFD0E2;
-  width: 1vmax;
-  height: 1vmax;
-  border-radius: 0.2vmax;
-  outline:1.5px solid #5897f6;
+  accent-color: #5897f6;
   background-color: #ffd0e253;
   margin-inline: 0.5vmax;
   padding: 0.2vmax;
 }
 .spring-input-radio{
   position: relative;
- accent-color: #FFD0E2;
-  width: 1vmax;
-  height: 1vmax;
-  border-radius: 50%;
-  outline:1.5px solid #5897f6;
+ accent-color: #5897f6;
   background-color: #ffd0e253;
   margin-inline: 0.5vmax;
   padding: 0.2vmax;
