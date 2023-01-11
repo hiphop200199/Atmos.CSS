@@ -8,7 +8,7 @@
 ### clean:
 ![clean style](/assets/images/clean.jpg)
 ### caramel:
-![caramel style](/assets/imagescaramel.jpg)
+![caramel style](/assets/images/caramel.jpg)
 ### lava:
 ![lava style](/assets/images/lava.jpg)
 ### sea:
