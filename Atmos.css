@@ -92,6 +92,7 @@
 }
 .spring-li{
   float: right;
+  color: #5897f6;
 }
 .spring-a-link {
   display: inline-block;
@@ -186,6 +187,10 @@ background-color: #ffd0e253;
 color: #5897f6;
 padding: 0.2vmax;
 }
+.spring-input-text::placeholder{
+  color: #5897f6;
+  font-family: "Hina Mincho";
+}
 .spring-input-password{
   outline:1.5px solid #5897f6;
   border-radius: 0.2vmax;
@@ -210,6 +215,28 @@ padding: 0.2vmax;
   margin-inline: 0.5vmax;
   padding: 0.2vmax;
 }
+.spring-input-number{
+  outline:1.5px solid #5897f6;
+  border-radius: 0.2vmax;
+  border: none;
+  margin-inline: 0.5vmax;
+  caret-color: #5897f6;
+  background-color: #ffd0e253;
+  color: #5897f6;
+  padding: 0.2vmax;
+  font-family: "Hina Mincho";
+}
+.spring-input-color{
+  outline:1.5px solid #5897f6;
+  border-radius: 0.2vmax;
+  border: none;
+  margin-inline: 0.5vmax;
+  caret-color: #5897f6;
+  background-color: #ffd0e253;
+  color: #5897f6;
+  padding: 0.3vmax;
+  font-family: "Hina Mincho";
+}
 .spring-input-submit{
   outline:1.5px solid #5897f6;
   border-radius: 0.2vmax;
@@ -219,6 +246,7 @@ padding: 0.2vmax;
   background-color: #ffd0e253;
   color: #5897f6;
   padding: 0.2vmax;
+  font-family: "Hina Mincho";
 }
 .spring-aside{
   margin-right: 1%;
@@ -253,6 +281,7 @@ padding: 0.2vmax;
   padding: 0.2vmax;
   cursor: pointer;
   font-size: 1.1rem;
+  font-family: "Hina Mincho";
   box-shadow: 1px 1px 6px 1px  #5897f62a;
   -webkit-box-reflect: below 0px linear-gradient(to top,rgba(0,0,0,0.3),rgba(0,0,0,0.01)) ;
 }
@@ -328,6 +357,7 @@ padding: 0.2vmax;
 }
 .tech-li{
   float: right;
+  color: #00E4FF;
 }
 .tech-a-link {
   display: inline-block;
@@ -407,6 +437,10 @@ background-color: #3D4F72;
 color: #00E4FF;
 padding: 0.5vmax;
 }
+.tech-input-text::placeholder{
+  color: #00E4FF;
+  font-family: 'Share Tech Mono', monospace;
+}
 .tech-input-password{
   outline:1.5px solid #00E4FF;
   border: none;
@@ -440,7 +474,26 @@ padding: 0.5vmax;
   margin: 1vmax;
   padding: 0.5vmax;
 }
-
+.tech-input-number{
+  outline:1.5px solid #00E4FF;
+  border: none;
+  margin: 0.5vmax;
+  caret-color: #00E4FF;
+  background-color: #3D4F72;
+  color: #00E4FF;
+  padding: 0.5vmax;
+  font-family: 'Share Tech Mono', monospace;
+}
+.tech-input-color{
+  outline:1.5px solid #00E4FF;
+  border: none;
+  margin: 0.5vmax;
+  caret-color: #00E4FF;
+  background-color: #3D4F72;
+  color: #00E4FF;
+  padding: 0.1vmax;
+  font-family: 'Share Tech Mono', monospace;
+}
 .tech-input-submit{
   outline:1.5px solid #00E4FF;
   border: none;
@@ -449,6 +502,7 @@ padding: 0.5vmax;
   background-color: #3D4F72;
   color: #00E4FF;
   padding: 0.5vmax;
+  font-family: 'Share Tech Mono', monospace;
 }
 .tech-aside{
   margin-inline:1vw;
@@ -497,6 +551,7 @@ padding: 0.5vmax;
   border: none;
   cursor: pointer;
   font-size: 1.2rem;
+  font-family: 'Share Tech Mono', monospace;
 }
 
 /*溫暖焦糖感風格的樣式，前綴為caramel-...。
@@ -551,6 +606,7 @@ padding: 0.5vmax;
 }
 .caramel-li{
   float: right;
+  color: #411F0B;
 }
 .caramel-a-link {
   display: inline-block;
@@ -647,6 +703,10 @@ background-color: #E3D0B0;
 color: #411F0B;
 padding: 0.2vmax;
 }
+.caramel-input-text::placeholder{
+  color: #411F0B;
+  font-family: 'Caveat', cursive;
+}
 .caramel-input-password{
   outline:1.5px solid #411F0B;
   border-radius: 0.5vmax;
@@ -679,7 +739,30 @@ padding: 0.2vmax;
   padding: 0.2vmax;
   caret-color: #411F0B;
 }
-
+.caramel-input-number{
+  outline:1.5px solid #411F0B;
+  border-radius: 0.5vmax;
+  border: none;
+  cursor: pointer;
+  margin-inline: 0.5vmax;
+  caret-color: #411F0B;
+  background-color: #E3D0B0;
+  color: #411F0B;
+  padding: 0.2vmax;
+  font-family: 'Caveat', cursive;
+}
+.caramel-input-color{
+  outline:1.5px solid #411F0B;
+  border-radius: 0.5vmax;
+  border: none;
+  cursor: pointer;
+  margin-inline: 0.5vmax;
+  caret-color: #411F0B;
+  background-color: #E3D0B0;
+  color: #411F0B;
+  padding: 0.3vmax;
+  font-family: 'Caveat', cursive;
+}
 .caramel-input-submit{
   outline:1.5px solid #411F0B;
   border-radius: 0.5vmax;
@@ -690,6 +773,7 @@ padding: 0.2vmax;
   background-color: #E3D0B0;
   color: #411F0B;
   padding: 0.2vmax;
+  font-family: 'Caveat', cursive;
 }
 .caramel-aside{
   border-radius: 2vmax;
@@ -793,6 +877,7 @@ padding: 0.2vmax;
 }
 .clean-li{
   float: right;
+  color: #363534;
 }
 .clean-a-link {
   display: inline-block;
@@ -874,6 +959,10 @@ background-color: #ffffff;
 color: #363534;
 padding: 0.5vmax;
 }
+.clean-input-text::placeholder{
+  color: #363534;
+  font-family: 'Libre Franklin', sans-serif;
+}
 .clean-input-password{
   outline:1.5px solid #363534;
   border: none;
@@ -908,7 +997,27 @@ padding: 0.5vmax;
   margin: 1vmax;
   padding: 0.5vmax;
 }
-
+.clean-input-number{
+  outline:1.5px solid #363534;
+  border: none;
+  border-radius: 2px;
+  margin: 0.5vmax;
+  caret-color: #363534;
+  background-color: #ffffff;
+  color: #363534;
+  padding: 0.5vmax;
+  font-family: 'Libre Franklin', sans-serif;
+}
+.clean-input-color{
+  outline:1.5px solid #363534;
+  border: none;
+  border-radius: 2px;
+  margin: 0.5vmax;
+  caret-color: #363534;
+  background-color: #ffffff;
+  color: #363534;
+  padding: 0.2vmax;
+}
 .clean-input-submit{
   outline:1.5px solid #363534;
   border: none;
@@ -919,6 +1028,7 @@ padding: 0.5vmax;
   background-color: #ffffff;
   color: #363534;
   padding: 0.5vmax;
+  font-family: 'Libre Franklin', sans-serif;
 }
 .clean-aside{
   margin-inline:1vw;
@@ -956,6 +1066,7 @@ padding: 0.5vmax;
   cursor: pointer;
   font-size: 1.2vw;
   padding: 0.5vmax;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 
@@ -1013,6 +1124,7 @@ padding: 0.5vmax;
 }
 .lava-li{
   float: right;
+  color: #FFDC7F;
 }
 .lava-a-link {
   display: inline-block;
@@ -1108,6 +1220,10 @@ background-color: #C23B20;
 color: #FFDC7F;
 padding: 0.2vmax;
 }
+.lava-input-text::placeholder{
+  color: #FFDC7F;
+  font-family: 'Yeon Sung', cursive;
+}
 .lava-input-password{
   outline:1.5px solid #FFDC7F;
   border-radius: 73% 27% 64% 36% / 47% 51% 49% 53% ;
@@ -1138,6 +1254,31 @@ padding: 0.2vmax;
   padding: 0.2vmax;
   caret-color: #ffdc7f;
 }
+.lava-input-number{
+  outline:1.5px solid #ffdc7f;
+  border-radius: 73% 27% 64% 36% / 47% 51% 49% 53% ;
+  border: none;
+  cursor: pointer;
+  margin-inline: 0.5vmax;
+  caret-color: #ffdc7f;
+  background-color: #C23B20;
+  color: #ffdc7f;
+  padding: 0.2vmax;
+  font-family: 'Yeon Sung', cursive;
+}
+.lava-input-color{
+  outline:1.5px solid #ffdc7f;
+  border-radius: 73% 27% 64% 36% / 47% 51% 49% 53% ;
+  border: none;
+  cursor: pointer;
+  margin-inline: 0.5vmax;
+  caret-color: #ffdc7f;
+  background-color: #C23B20;
+  color: #ffdc7f;
+  padding: 0.3vmax;
+  font-family: 'Yeon Sung', cursive;
+}
+
 
 .lava-input-submit{
   outline:1.5px solid #ffdc7f;
@@ -1149,6 +1290,7 @@ padding: 0.2vmax;
   background-color: #C23B20;
   color: #ffdc7f;
   padding: 0.2vmax;
+  font-family: 'Yeon Sung', cursive;
 }
 .lava-aside{
   border-radius: 65% 35% 65% 35% / 37% 43% 57% 63% ;
@@ -1260,6 +1402,7 @@ padding: 0.2vmax;
 }
 .sea-li{
   float: right;
+  color: #FAF7E2;
 }
 .sea-a-link {
   display: inline-block;
@@ -1352,6 +1495,10 @@ background-image: linear-gradient(55deg,#0B8CEA,#088ceaa7);
 color: #FAF7E2;
 padding: 0.2vmax;
 }
+.sea-input-text::placeholder{
+  color: #FAF7E2;
+  font-family: 'East Sea Dokdo', cursive;
+}
 .sea-input-password{
   border-radius: 73% 27% 64% 36% / 47% 51% 49% 53% ;
   border: none;
@@ -1381,7 +1528,25 @@ padding: 0.2vmax;
   padding: 0.2vmax;
   caret-color: #FAF7E2;
 }
-
+.sea-input-number{
+  border-radius: 73% 27% 64% 36% / 47% 51% 49% 53% ;
+  border: none;
+  margin-inline: 0.5vmax;
+  caret-color: #FAF7E2;
+  background-image: linear-gradient(55deg,#0B8CEA,#088ceaa7);
+  color: #FAF7E2;
+  padding: 0.2vmax;
+  font-family: 'East Sea Dokdo', cursive;
+}
+.sea-input-color{
+  border-radius: 73% 27% 64% 36% / 47% 51% 49% 53% ;
+  border: none;
+  margin-inline: 0.5vmax;
+  caret-color: #FAF7E2;
+  background-image: linear-gradient(55deg,#0B8CEA,#088ceaa7);
+  color: #FAF7E2;
+  padding: 0.3vmax;
+}
 .sea-input-submit{
   border-radius: 40% 60% 48% 52% / 54% 50% 50% 46% ;
   border: none;
@@ -1391,6 +1556,7 @@ padding: 0.2vmax;
   background-image: linear-gradient(55deg,#0B8CEA,#088ceaa7);
   color: #FAF7E2;
   padding: 0.5vmax;
+  font-family: 'East Sea Dokdo', cursive;
 }
 .sea-aside{
   border-radius: 59% 41% 55% 45% / 54% 50% 50% 46%  ;
