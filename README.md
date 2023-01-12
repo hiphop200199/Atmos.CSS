@@ -2,14 +2,14 @@
 ## 樣式CDN:
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hiphop200199/Atmos.CSS@main/Atmos.css"/>
 ### spring:
-!(/assets/images/spring.jpg)
+![spring style](/assets/images/spring.jpg)
 ### tech:
-!(/assets/images/tech.jpg)
+![tech style](/assets/images/tech.jpg)
 ### clean:
-!(/assets/images/clean.jpg)
+![clean style](/assets/images/clean.jpg)
 ### caramel:
-!(/assets/imagescaramel.jpg)
+![caramel style](/assets/images/caramel.jpg)
 ### lava:
-!(/assets/images/lava.jpg)
+![lava style](/assets/images/lava.jpg)
 ### sea:
-!(/assets/images/sea.jpg)
+![sea style](/assets/images/sea.jpg)
