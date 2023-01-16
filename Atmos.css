@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 /*<link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     預先下載google fonts相關程式碼
     */
 * {
@@ -1731,4 +1733,244 @@ padding: 0.2vmax;
   color: #FAF7E2;
   box-shadow: 1px 1px 6px 2px  #0E2063;
   -webkit-box-reflect: below 0px linear-gradient(to top,rgba(0,0,0,0.7),rgba(0,0,0,0.01)) ;
+}
+
+
+
+/*發芽茁壯的感覺，前綴為flourish-...，
+顏色選擇(16進位色號，不區分大小寫):
+1.#2AB919
+2.#F3FF00
+3.#A6DB66
+4.#DCE1C8
+*/
+
+
+.flourish-container {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Indie Flower', cursive;
+}
+
+.flourish-h1{
+  font-size: 5vw;
+  letter-spacing: 0.5vw;
+}
+.flourish-h2{
+  font-size: 2.8vw;
+}
+.flourish-h3{
+  font-size: 2.5vw;
+}
+.flourish-h4{
+  font-size: 2vw;
+}
+.flourish-h5{
+  font-size: 1.6vw;
+}
+.flourish-h6{
+  font-size: 1.2vw;
+}
+.flourish-navbar{
+  padding: 0.2vmax;
+}
+.flourish-ul {
+  list-style-type: none;
+}
+.flourish-li{
+  float: right;
+}
+.flourish-a-link {
+  border-radius: 3vmax;
+  display: inline-block;
+  padding: 0.5vmax;
+  margin-inline: 1.5vmax;
+  color: #DCE1C8;
+  background-image:  linear-gradient(35deg,#2AB919,#A6DB66);
+  -webkit-box-reflect: below 1px linear-gradient(to top,rgba(0,0,0,0.6),rgba(0,0,0,0.01)) ;
+  
+}
+.flourish-a-link:link,.flourish-a-link:visited, .flourish-a-link:hover,.flourish-a-link:active{
+  text-decoration: none;
+}
+ 
+ 
+.flourish-all {
+ position: relative;
+  padding: 0.3vmax;
+  width: 100%;
+  height: 100vh;
+  background-image:  linear-gradient(55deg,#2AB919,#A6DB66,#F3FF00);
+  color: #DCE1C8;
+}
+.flourish-article{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+ 
+}
+.flourish-table{
+ 
+  text-align: center;
+ margin-inline: 1vw;
+ 
+}
+
+.flourish-tr-header{
+  background-color: #2AB919;
+ 
+ 
+}
+.flourish-tr-data{
+  background-color: #DCE1C8 ;
+  color:#2AB919;
+ 
+}
+.flourish-th{
+  border-radius: 3vmax;
+  font-size: 1.3vw;
+  font-weight: 700;
+  padding: 0.9vmax;
+}
+.flourish-td{
+  border-radius: 3vmax;
+  font-size: 1vw;
+  padding: 0.2vmax ;
+}
+.flourish-form{
+  display: flex;
+  flex-direction: column;
+ justify-content: space-between;
+  padding: 1vmax;
+  background-image:  linear-gradient(45deg,#2AB919,#29b919c0);
+  border-radius: 3vmax;
+}
+.flourish-label{
+  font-size: 1.1vw;
+  padding: 0.2vmax;
+}
+.flourish-input-text{
+  border-radius: 3vmax;
+border: none;
+margin-inline: 0.5vmax;
+caret-color: #DCE1C8;
+background-image:  linear-gradient(35deg,#2AB919,#A6DB66);
+color: #DCE1C8;
+padding: 0.2vmax;
+}
+.flourish-input-text::placeholder{
+  color: #DCE1C8;
+  font-family: 'Indie Flower', cursive;
+}
+.flourish-input-password{
+  border: none;
+  margin-inline: 0.5vmax;
+  caret-color: #DCE1C8;
+  color: #DCE1C8;
+  padding: 0.2vmax;
+  background-image:  linear-gradient(35deg,#2AB919,#A6DB66);
+  border-radius: 3vmax;
+}
+.flourish-input-checkbox{
+  position: relative;
+  accent-color: #DCE1C8;
+  width: 1vmax;
+  height: 1vmax;
+  margin-inline: 0.5vmax;
+  caret-color: #DCE1C8;
+  padding: 0.2vmax;
+
+}
+.flourish-input-radio{
+  position: relative;
+  accent-color: #DCE1C8;
+  width: 1vmax;
+  height: 1vmax;
+  margin-inline: 0.5vmax;
+  padding: 0.2vmax;
+  caret-color: #DCE1C8;
+ 
+}
+.flourish-input-number{
+  border: none;
+  margin-inline: 0.5vmax;
+  caret-color: #DCE1C8;
+  color: #DCE1C8;
+  padding: 0.2vmax;
+  background-image:  linear-gradient(35deg,#2AB919,#A6DB66);
+  font-family: 'Indie Flower', cursive;
+  border-radius: 3vmax;
+}
+.flourish-input-color{
+  border-radius: 3vmax;
+  border: none;
+  margin-inline: 0.5vmax;
+  caret-color: #DCE1C8;
+  background-image:  linear-gradient(35deg,#2AB919,#A6DB66);
+  color: #DCE1C8;
+  padding: 0.3vmax;
+}
+.flourish-input-range{
+  appearance: none;
+    margin-inline: 0.5vmax;
+    background-color: transparent;
+  }
+  .flourish-input-range::-webkit-slider-runnable-track{
+    width: 100%;
+    height: 0.8vmax;
+    background-image:  linear-gradient(35deg,#2AB919,#A6DB66);
+    border-radius: 3vmax;
+  
+  }
+  .flourish-input-range::-webkit-slider-thumb{
+    clip-path: ellipse(25% 40% at 50% 50%);
+    height: 2vmax;
+    width: 2vmax;
+    translate: 0 -0.6vmax;
+    background-image:  linear-gradient(55deg,#2AB919,#A6DB66,#F3FF00);
+   
+   
+    cursor: pointer;
+   -webkit-appearance: none;
+  
+  }
+.flourish-input-submit{
+  border-radius: 3vmax;
+  border: none;
+  cursor: pointer;
+  margin-inline: 0.5vmax;
+  caret-color: #DCE1C8;
+  background-image:  linear-gradient(35deg,#2AB919,#A6DB66);
+  color: #DCE1C8;
+  padding: 0.5vmax;
+  font-family: 'Indie Flower', cursive;
+}
+.flourish-aside{
+  border-radius: 3vmax;
+  margin-inline: 1vw;
+  display: flex;
+  padding: 1vmax;
+  flex-direction: column;
+  width: 45ch;
+  background-image:  linear-gradient(45deg,#2AB919,#29b919c0);
+}
+.flourish-p{
+  margin-top: 1vmax;
+  padding: 1vmax;
+ line-height: 1.5;
+  font-size: 1vw;
+}
+.flourish-button{
+  border-radius: 3vmax;
+  margin-inline: 1vmax;
+  border: none;
+  padding: 0.5vmax;
+  cursor: pointer;
+  font-size: 1.1vw;
+ font-family: inherit;
+ color: #DCE1C8;
+ background-image:  linear-gradient(35deg,#2AB919,#A6DB66);
+  -webkit-box-reflect: below 0px linear-gradient(to top,rgba(0,0,0,0.6),rgba(0,0,0,0.01)) ;
 }
