@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap');
 /*<link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -1973,4 +1974,294 @@ padding: 0.2vmax;
  color: #DCE1C8;
  background-image:  linear-gradient(35deg,#2AB919,#A6DB66);
   -webkit-box-reflect: below 0px linear-gradient(to top,rgba(0,0,0,0.6),rgba(0,0,0,0.01)) ;
+}
+
+
+
+/*中華傳統，前綴為traditional-...。
+顏色選擇(16進位色號，不區分大小寫):
+1.#7B0601
+2.#0B0B0B
+3.#D8A65F
+4.#C91811
+5.#FCC26E
+6.#201511
+*/
+.traditional-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Noto Serif TC', serif;
+}
+.traditional-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  height: 15vh;
+  background-color: #201511;
+  border: 20px solid #D8A65F;
+ border-radius: 0 0 0.2vmax 0.2vmax;
+}
+.traditional-h1{
+  font-size: 3.6vw;
+  font-weight: 500;
+  color: #C91811;
+  text-decoration-line:underline;
+  text-decoration-style: double;
+}
+.traditional-h2{
+  font-size: 3vw;
+  font-weight: 500;
+  color: #C91811;
+  text-decoration-line:underline;
+  text-decoration-style: double;
+}
+.traditional-h3{
+  font-size: 2.6vw;
+  font-weight: 500;
+  color: #C91811;
+  text-decoration-line:underline;
+  text-decoration-style: double;
+}
+.traditional-h4{
+  font-size: 2.2vw;
+  color: #C91811;
+  text-decoration-line:underline;
+  text-decoration-style: double;
+}
+.traditional-h5{
+  font-size: 1.8vw;
+  color: #C91811;
+  text-decoration-line:underline;
+  text-decoration-style: double;
+}
+.traditional-h6{
+  font-size: 1.2vw;
+  color: #C91811;
+  text-decoration-line:underline;
+  text-decoration-style: double;
+}
+.traditional-navbar{
+  padding: 1vmax;
+}
+.traditional-ul {
+  list-style-type:none;
+}
+.traditional-li{
+  float: right;
+  color:#C91811;
+}
+.traditional-a-link {
+  display: inline-block;
+  padding: 0.5vmax;
+  margin-inline: 1vmax;
+  border-radius: 0.2vmax;
+  background-color: #FCC26E;
+  color: #C91811;
+  font-size: 1.2vw;
+  text-decoration: underline;
+  border: 5px solid #7B0601;
+  box-shadow: 1px 1px 6px 1px  #7b050186;
+  -webkit-box-reflect: below 0px linear-gradient(to top,rgba(0,0,0,0.3),rgba(0,0,0,0.01)) ;
+}
+.traditional-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75vh;
+  background-color: #FCC26E;
+  border: 20px solid #7B0601;
+ border-radius: 0 0 0.2vmax 0.2vmax;
+}
+.traditional-article{
+  display: flex;
+ 
+}
+.traditional-table{
+  text-align: center;
+  box-shadow: 1px 1px 6px 1px  #20151186;
+  border: 10px solid #201511;
+  border-collapse: collapse;
+  margin: 1vmax;
+}
+
+.traditional-tr-header{
+  background-color: #C91811;
+  border: 10px solid #201511;
+}
+.traditional-tr-data{
+  background-color:  #7B0601;
+  border: 10px solid #201511;
+}
+.traditional-th{
+  color: #FCC26E;
+  border: 10px solid #201511;
+  font-size: 1.5vw;
+  font-weight: 700;
+  padding: 0.8vmax;
+}
+.traditional-td{
+  color: #FCC26E;
+  font-size: 1.1vw;
+  border: 10px solid #201511;
+  padding: 0.3vmax;
+}
+.traditional-form{
+  border-radius: 0.2vmax;
+  margin: 1vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5vmax;
+  background-color: #D8A65F;
+  border: 10px solid #201511;
+  box-shadow: 1px 1px 6px 1px  #20151186;
+}
+.traditional-label{
+  color: #C91811;
+  font-size: 1.2vw;
+  font-weight: 700;
+  padding: 0.2vmax;
+  text-decoration: underline;
+}
+.traditional-input-text{
+outline: none;
+border-radius: 0.2vmax;
+border: 5px solid #C91811;
+margin-inline: 0.5vmax;
+caret-color: #C91811;
+background-color: #201511;
+color: #C91811;
+padding: 0.5vmax;
+font-size: 1vw;
+}
+.traditional-input-text::placeholder{
+  color: #C91811;
+  font-family: 'Noto Serif TC', serif;
+}
+.traditional-input-password{
+  outline:none;
+  border: 5px solid #C91811;
+  border-radius: 0.2vmax;
+  margin-inline: 0.5vmax;
+  caret-color: #C91811;
+  background-color: #201511;
+  color: #C91811;
+  padding: 0.5vmax;
+  font-size: 1vw;
+}
+.traditional-input-checkbox{
+  accent-color: #c91811;
+  background-color: #201511;
+  margin-inline: 0.5vmax;
+}
+.traditional-input-radio{
+  accent-color: #c91811;
+  background-color: #201511;
+  margin-inline: 0.5vmax;
+}
+.traditional-input-number{
+  outline:none;
+  border-radius: 0.2vmax;
+  border: 5px solid #C91811;
+  margin-inline: 0.5vmax;
+  caret-color: #c91811;
+  background-color: #201511;
+  color: #c91811;
+  padding: 0.5vmax;
+  font-family: 'Noto Serif TC', serif;
+}
+.traditional-input-color{
+  outline:none;
+  border-radius: 0.2vmax;
+  border: 5px solid #C91811;
+  margin-inline: 0.5vmax;
+  caret-color: #C91811;
+  background-color: #ffd0e253;
+  color: #C91811;
+  font-family: 'Noto Serif TC', serif;
+}
+.traditional-input-range{
+  appearance: none;
+    margin-inline: 0.5vmax;
+    background-color: transparent;
+  }
+  .traditional-input-range::-webkit-slider-runnable-track{
+    width: 100%;
+    height: 1vmax;
+    background-color: #201511;
+    border-radius: 0.2vmax;
+    border: 5px solid #C91811;
+  }
+  .traditional-input-range::-webkit-slider-thumb{
+    height: 1.8vmax;
+    width: 1vmax;
+    translate: 0 -0.5vmax;
+    border-radius: 0.2vmax;
+    border: 5px solid #201511;
+    background-color: #c91811;
+    cursor: pointer;
+   -webkit-appearance: none;
+  
+  }
+.traditional-input-submit{
+  outline:none;
+  border-radius: 0.2vmax;
+  border: 5px solid #C91811;
+  margin-inline: 0.5vmax;
+  caret-color: #C91811;
+  background-color: #201511;
+  color: #C91811;
+  padding: 0.5vmax;
+  font-size: 1vw;
+  font-family: 'Noto Serif TC', serif;
+}
+.traditional-aside{
+  margin: 1vmax;
+  display: flex;
+  padding: 2vmax;
+  flex-direction: column;
+  width: 55ch;
+  background-color: #D8A65F;
+  border: 10px solid #201511;
+  box-shadow: 1px 1px 6px 1px  #20151186;
+  border-radius: 0.2vmax;
+}
+.traditional-p{
+  margin: 1vmax;
+  line-height: 1.6;
+  color: #0b0b0b;
+  font-size: 1vw;
+  border: 3px solid #0b0b0b;
+  background-color: #FCC26E;
+}
+.traditional-footer {
+  width: 100%;
+  height: 10vh;
+  background-color: #7B0601;
+  border: 20px solid #0b0b0b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2vmax;
+}
+.traditional-button{
+  margin:1vmax;
+  background-color: #C91811;
+  border-radius: 0.2vmax;
+  color: #FCC26E;
+  border: 5px solid #201511;
+  padding: 0.2vmax;
+  cursor: pointer;
+  font-size: 1.2vw;
+  text-decoration: underline;
+  font-family: 'Noto Serif TC', serif;
+  box-shadow: 1px 1px 6px 1px  #20151186;
+  -webkit-box-reflect: below 0px linear-gradient(to top,rgba(0,0,0,0.3),rgba(0,0,0,0.01)) ;
 }
