@@ -17,4 +17,6 @@
 ![flourish style](/assets/images/grass.jpg)
 ### traditional:
 ![traditional style](/assets/images/chinese-traditional.jpg)
+### yugioh:
+![yugioh style](/assets/images/yugioh.jpg)
 
