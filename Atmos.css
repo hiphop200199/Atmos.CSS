@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 /*<link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+   link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     預先下載google fonts相關程式碼
     */
 * {
@@ -2488,3 +2490,254 @@ font-size: 1vw;
     translate: 2vw;
   }
 }
+
+
+
+/*高彩塗鴉，前綴為graffiti-...。
+顏色選擇(16進位色號，不區分大小寫):
+1.#E23138
+2.#F5FC55
+3.#43A34A
+4.#23BDEFE
+5.#BD82BE
+6.#051224
+
+*/
+.graffiti-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  overflow-y: scroll;
+  font-family: 'Rock Salt', cursive;
+  color: #F5FC55;
+  background-color: #051224;
+  filter: contrast(200%);
+}
+.graffiti-container::-webkit-scrollbar{
+  width: 1vw;
+}
+.graffiti-container::-webkit-scrollbar-track{
+  border-radius: 1vmax;
+  background-color: #43A34A;
+}
+.graffiti-container::-webkit-scrollbar-thumb{
+  border-radius: 1vmax;
+  background-color: #F5FC55;
+}
+.graffiti-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 45vh;
+  box-shadow: inset 0 0 0 20px #E23138,
+                         inset 0 0 0 40px #3BDEFE, 
+                         inset 0 0 0 60px #F5FC55
+  ;
+  border-radius: 63% 37% 70% 30% / 74% 37% 63% 26% ; 
+}
+.graffiti-h1{
+  font-size:7vw;
+  font-weight: 900;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #43A34A;
+
+}
+.graffiti-h2{
+  font-size: 3vw;
+  font-weight: 900;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #43A34A;
+
+}
+.graffiti-h3{
+  font-size: 2vw;
+  font-weight: 900;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #43A34A;
+
+}
+.graffiti-h4{
+  font-size: 1.5vw;
+  font-weight: 900;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #43A34A;
+
+}
+.graffiti-h5{
+  font-size: 1.2vw;
+  font-weight: 900;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #43A34A;
+
+}
+.graffiti-h6{
+  font-size: 1vw;
+  font-weight: 900;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #43A34A;
+
+}
+.graffiti-navbar{
+  padding: 1vmax;
+}
+.graffiti-ul {
+  list-style-type: none;
+}
+.graffiti-li{
+  float: right;
+  margin: 0.5vmax;
+}
+.graffiti-li::marker{
+  content: url(./assets/images/paint.png);
+}
+.graffiti-a-link {
+  display: inline-block;
+  padding: 0.5vmax;
+  margin: 1vmax;
+  border-radius: 74% 26% 80% 20% / 74% 14% 86% 26% ;
+  color: #F5FC55;
+ background-color: #bd82be;
+   font-size: 1vw;
+  border: 5px double #3BDEFE;
+  
+}
+.graffiti-a-link:link {
+  
+  text-decoration: none;
+ 
+}
+.graffiti-a-link:visited {
+  text-decoration: none;
+  
+}
+.graffiti-a-link:hover {
+  text-decoration: none;
+ 
+}
+.graffiti-a-link:active {
+  text-decoration: none;
+  
+}
+.graffiti-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 75vh;
+  box-shadow: inset 0 0 0 20px #E23138,
+                         inset 0 0 0 40px #3BDEFE, 
+                         inset 0 0 0 60px #F5FC55
+  ;
+  border-radius: 44% 56% 45% 55% / 74% 35% 65% 26% ;
+}
+.graffiti-form{
+  background-color: #E23138;
+  display: flex;
+  border-radius: 10px 50px 30px 20px ;
+  flex-direction: column;
+  padding: 1vmax;
+  box-shadow: inset 0 0 0 3px #43A34A,
+  inset 0 0 0 6px #3BDEFE, 
+  inset 0 0 0 9px #F5FC55
+;
+ 
+}
+.graffiti-label{
+  font-size: 1.1vw;
+  font-weight: 700;
+  padding: 0.2vmax;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #43A34A;
+}
+.graffiti-input-text{
+outline: none;
+border-radius: 10px 50px 30px 20px ;
+border: 1px solid #051224;
+margin: 0.5vmax;
+caret-color: #051224;
+background-color: #3BDEFE;
+color: #051224;
+padding: 0.2vmax;
+}
+.graffiti-input-text::placeholder{
+  font-family: 'Rock Salt', cursive;
+  
+}
+.graffiti-input-password{
+  outline: none;
+  border-radius: 10px 50px 30px 20px ;
+border: 1px solid #051224;
+margin: 0.5vmax;
+caret-color: #051224;
+background-color: #3BDEFE;
+color: #051224;
+padding: 0.2vmax;
+}
+.graffiti-input-number{
+  outline: none;
+  border-radius: 10px 50px 30px 20px ;
+border: 1px solid #051224;
+margin: 0.5vmax;
+caret-color: #051224;
+background-color: #3BDEFE;
+color: #051224;
+padding: 0.2vmax;
+font-family: 'Rock Salt', cursive;
+}
+.graffiti-input-color{
+  
+  border: 3px dashed #3BDEFE ;
+  margin: 0.5vmax;
+  background-color: transparent;
+ 
+}
+.graffiti-input-submit{
+  outline: none;
+  border-radius: 10px 50px 30px 20px ;
+border: 1px solid #051224;
+margin: 0.5vmax;
+caret-color: #051224;
+background-color: #3BDEFE;
+color: #051224;
+padding: 0.2vmax;
+font-family: 'Rock Salt', cursive;
+}
+.graffiti-aside{
+  margin: 1vmax;
+  display: flex;
+  padding: 2vmax;
+  flex-direction: column;
+  width: 45ch;
+  border-radius: 70px 1px 120px 20px;
+  background-color: #3BDEFE;
+  box-shadow: inset 0 0 0 4px #E23138,
+  inset 0 0 0 8px #43A34A, 
+  inset 0 0 0 12px #F5FC55
+;
+ 
+ 
+}
+.graffiti-p{
+  margin: 0.5vmax;
+  line-height: 1.8;
+  color: #051224;
+}
+
+.graffiti-button{
+  margin: 1vmax;
+  background-color: #E23138;
+  border-radius: 15% 85% 38% 62% / 65% 67% 33% 35% ;
+  border: none;
+  padding: 0.2vmax;
+  cursor: pointer;
+  font-size: 1vw;
+  font-family: 'Rock Salt', cursive;
+  color: #F5FC55;
+  border: 5px dotted #3BDEFE;
+}
+
