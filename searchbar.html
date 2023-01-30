@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 60vw;
+        display: flex;
+      }
+      #inp {
+        font-size: 3vw;
+        border-radius: 100vmax 0 0 100vmax;
+        padding: 1.5vmax;
+        background-color: whitesmoke;
+        border-inline-end: none;
+      }
+      #inp:focus {
+        outline: none;
+      }
+      #search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vw;
+        border-radius: 0 100vmax 100vmax 0;
+        padding: 1.5vmax;
+        background-color: whitesmoke;
+        border-inline-start: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <input type="search" name="" id="inp" placeholder="找商品" />
+      <button id="search">&#128269;</button>
+    </div>
+  </body>
+</html>
