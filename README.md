@@ -19,4 +19,6 @@
 ![traditional style](/assets/images/chinese-traditional.jpg)
 ### yugioh:
 ![yugioh style](/assets/images/yugioh.jpg)
+### graffiti:
+![graffiti style](/assets/images/graffiti.jpg)
 
